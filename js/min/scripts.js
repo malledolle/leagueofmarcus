@@ -1,0 +1,1 @@
+$(function(){function e(){a.addClass("pulse"),setTimeout(function(){a.removeClass("pulse")},s-100)}var a=$(".player"),n=$("audio"),t=n.data("bpm"),s=60/t*1e3;setInterval(function(){e()},s)});
